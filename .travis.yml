@@ -6,3 +6,6 @@ components:
     - platform-tools
 script:
     - ./gradlew build check
+before_install:
+  - mkdir "$ANDROID_SDK/licenses" || true
+  - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_SDK/licenses/android-sdk-license"
