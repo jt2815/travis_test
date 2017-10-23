@@ -9,8 +9,6 @@ android:
         - 'android-sdk-license-.+'
         - '.+'
 script:
-    - sdkmanager "extras;android;m2repository"
-    - echo y
-    - sdkmanager "extras;google;m2repository"
-    - echo y
+    - echo y | sdkmanager "extras;android;m2repository"
+    - echo y | sdkmanager "extras;google;m2repository"
     - ./gradlew build check
