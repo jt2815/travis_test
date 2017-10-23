@@ -6,7 +6,6 @@ android:
         - build-tools-26
         - platform-tools
     licenses:
-        - 'android-sdk-preview-license-.+'
         - 'android-sdk-license-.+'
 script:
     - ./gradlew build check
