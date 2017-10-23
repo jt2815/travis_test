@@ -3,5 +3,6 @@ sudo: false
 components:
     - tools
     - build-tools-26.0.0
+    - android-24
     - platform-tools
     - sys-img-armeabi-v7a-android-25
