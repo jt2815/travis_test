@@ -10,5 +10,7 @@ android:
         - '.+'
 script:
     - sdkmanager "extras;android;m2repository"
+    - echo y
     - sdkmanager "extras;google;m2repository"
+    - echo y
     - ./gradlew build check
