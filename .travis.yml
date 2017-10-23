@@ -2,6 +2,6 @@ language: android
 sudo: false
 components:
     - tools
-    - build-tools-25.0.2
+    - build-tools-26.0.0
     - platform-tools
     - sys-img-armeabi-v7a-android-25
